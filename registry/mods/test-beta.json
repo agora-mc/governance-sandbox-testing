@@ -1,0 +1,19 @@
+{
+  "id": "test-beta",
+  "name": "Fake Governance Test Beta",
+  "content_type": "mod",
+  "author": "Agora Sandbox",
+  "license": "MIT",
+  "download_strategy": "direct_hash",
+  "source_identifier": "https://example.invalid/agora-test-beta.jar",
+  "sha256": "b000000000000000000000000000000000000000000000000000000000000002",
+  "package_signatures": ["invalid.example.agora.testbeta"],
+  "base_categories": ["library"],
+  "community_categories": [],
+  "curator_note": "Fake disposable governance fixture. This is not real Minecraft content.",
+  "governance": {
+    "immune": false,
+    "override_justification": null,
+    "allow_comments": true
+  }
+}

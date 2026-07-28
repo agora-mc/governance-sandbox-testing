@@ -11,7 +11,7 @@ body:
 
         This form begins the curation process. It does **not** directly add content to Agora.
 
-        Submit the official project and source links you know. Curators and tooling will determine the final registry ID, download strategy, hashes, package identities, compatibility records, and curator note.
+        Submit the official project and source links you know. Accepted submissions are converted into manifests by curators or tooling. Curators determine the final registry ID, download strategy, hashes, package identities, compatibility records, and curator note.
 
         Before submitting, search existing issues and the registry to avoid duplicates.
 

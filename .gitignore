@@ -1,0 +1,4 @@
+﻿build/
+*.db
+*.db.sig
+governance-state.json

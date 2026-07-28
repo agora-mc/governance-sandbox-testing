@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "items": {
+    "test-alpha": {
+      "issue_number": 1
+    },
+    "test-beta": {
+      "issue_number": 2
+    }
+  }
+}
