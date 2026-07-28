@@ -20,7 +20,7 @@ registry/
     test-alpha.json          # Disposable sandbox mod (direct_hash, MIT)
     test-beta.json           # Disposable sandbox mod (direct_hash, MIT)
   governance/
-    vote_issues.json         # Canonical issue → registry ID mapping
+    vote_issues.json         # Canonical issue to registry ID mapping
     quarantine_decisions.json# Empty quarantine decision log
     poll_blacklist.json      # Empty poll blacklist
 docs/
@@ -38,5 +38,5 @@ README.md                    # This file
 - **No compiler code lives here.** The actual compiler remains at
   `D:\Agora\compiler\`. This sandbox provides flat-file manifests that the
   compiler can consume when pointed at this directory.
-- To compile: `cd D:\Agora\compiler && python compile.py --registry-dir D:\governance-sandbox-testing\registry --out test.db`
-- Delete this directory at any time — nothing depends on it.
+- To compile from the main repository: `python compiler/compile.py --registry-root D:/governance-sandbox-testing/registry --governance-mode off --governance-policy sandbox --skip-sign --out D:/governance-sandbox-testing/build/registry.db`
+- Delete this directory at any time; nothing depends on it.

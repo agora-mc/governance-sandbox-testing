@@ -1,9 +1,16 @@
-﻿# Canonical Vote Issue — Governance Sandbox
+# Canonical Vote Issue - Governance Sandbox
 
 This document describes the canonical voting issues used in the governance sandbox
 at `D:\governance-sandbox-testing`. These issues are placeholders for testing the
 compiler and launcher governance pipeline (vote tallying, reaction parsing,
 poll_blacklist filtering, and quarantine decisions).
+
+> **Issue numbers 1 and 2 are placeholders.** They have **not** been verified
+> against the remote repository (`agora-mc/governance-sandbox-testing`). Before
+> relying on these issue numbers, confirm that canonical vote Issues with the
+> `registry-vote` label actually exist at those numbers. If they do not exist,
+> create them first, then update `vote_issues.json` and this file with the
+> correct numbers.
 
 ## Registered Canonical Issues
 
@@ -23,11 +30,12 @@ its respective sandbox manifest in `registry/mods/`.
 
 ## Usage
 
-1. Create GitHub Issues #1 and #2 in this repository with the titles above.
-2. Add the `community-review` label to both.
+1. Create one canonical GitHub voting Issue for each fixture and record the actual Issue numbers.
+2. Add the `registry-vote` label to both (never `community-review`; that label
+   is reserved for review issues, not vote issues).
 3. The compiler (when run in `read-only` or `monitor` mode) will read reactions
    on these issues and apply them to the corresponding registry items.
-4. Test vote-weight scenarios by adding reactions from various accounts.
+4. Test vote eligibility scenarios by adding reactions from various accounts.
 5. Test `poll_blacklist` by adding a username to `poll_blacklist.json` and
    verifying that user's votes are zero-weighted.
 
