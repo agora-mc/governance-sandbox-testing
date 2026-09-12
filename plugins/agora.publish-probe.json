@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "id": "agora.publish-probe",
+  "sequence": 1,
+  "releases": [
+    {
+      "version": "1.0.0",
+      "url": "https://raw.githubusercontent.com/agora-mc/governance-sandbox-testing/main/plugins/probe-1.0.0.zip",
+      "sha256": "6c1eb42635abfd3a54c323d9098a36f59371a33575ddd996a5db324b87e71258",
+      "size": 1027,
+      "apiRange": ">=0.1, <0.2",
+      "notes": "First release."
+    },
+    {
+      "version": "1.1.0",
+      "url": "https://raw.githubusercontent.com/agora-mc/governance-sandbox-testing/main/plugins/probe-1.1.0.zip",
+      "sha256": "47e8e6dcfe74ed416445055f3577b0db035a229e8108b70fa9474509bf9c2404",
+      "size": 1027,
+      "apiRange": ">=0.1, <0.2",
+      "notes": "Proves the update path works against a real host."
+    }
+  ],
+  "signatures": [
+    {
+      "keyId": "probe-2026",
+      "algorithm": "ed25519",
+      "value": "o1nircgpgieOOJ2J6/rh3QzoTIYz8l0lCH1H2+QxyqXd8vpFeUd8WKBmStBlkekAyJkF2nn8l9KNa9FFF7lRBQ=="
+    }
+  ]
+}
